@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+}
+header {
+  font-family: "Style Script", cursive;
+  font-size: 1.5rem;
+  background-color: white;
+  color: #00b4d8;
+  padding: 15px 20px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+}
+header.dark {
+  background-color: #282d35;
+}
+.auth-fields-and-buttons {
+  display: inline-block;
+  margin: 0 10px;
+}
+.toggler--container {
+  font-family: inter;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+section {
+  padding: 10px 20px;
+  background-image: url("../public/images/light-mode-toggle-icon.png");
+  background-repeat: no-repeat;
+  flex: 1 1 auto;
+  background-size: 40px;
+}
+
+section.dark {
+  background-image: url("../public/images/dark-mode-toggle-icon.png");
+  background-color: #282d35;
+}
+
+.toggler--light,
+.toggler--dark {
+  color: gray;
+  font-size: 0.875rem;
+  font-weight: 400;
+  padding: 0 5px 0 5px;
+}
+
+footer > p {
+  margin-bottom: 0;
+}
+
+.main {
+  margin-top: 10px;
+  margin-right: 0;
+  margin-left: 10px;
+  /* width: 340px; */
+  width: 90%;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 5px solid #00b4d8;
+  border-radius: 10px;
+}
+.main--miloStones {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-x: hidden;
+}
+.main-description {
+  font-weight: 400;
+  text-align: justify;
+  font-size: 0.875rem;
+  height: 80px;
+  overflow-y: scroll;
+  line-height: 1.5;
+}
+
+h1 {
+  margin: 0 auto 0 0;
+  font-size: 1.5rem;
+}
+h3 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+span {
+  font-size: 0.8125rem;
+  font-style: italic;
+}
+.main-img-stone {
+  width: 90%;
+  /* width: 300px;
+  height: 300px; */
+  border-radius: 10px;
+  border: 2px solid #00b4d8;
+}
+
+.container {
+  background-color: white;
+}
+.main-stats {
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.like-comment {
+  display: flex;
+  margin: 10px auto;
+  gap: 40px;
+  width: 90%;
+}
+.like,
+.comment {
+  border: 1px solid white;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  width: 90%;
+}
+.comment-submit-field {
+  margin: 10px 0;
+}
+
+.like > p:hover,
+.comment > p:hover {
+  cursor: pointer;
+}
+
+.darkMode {
+  color: white;
+  background-color: #282d35;
+}
+input.darkMode,
+textarea.darkMode {
+  background-color: #282d35;
+}
+form {
+  display: grid;
+}
+
+input,
+textarea {
+  margin-bottom: 5px;
+}
+
+.reverse-btn {
+}
+
+.reverse-btn-container {
+  /* border: solid 5px; */
+  margin-right: auto;
+}
+
+header > h1 {
+  /* border: solid 5px; */
+}
+.display-linebreak {
+  white-space: pre-line;
+}
